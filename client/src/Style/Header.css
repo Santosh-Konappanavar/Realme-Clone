@@ -75,6 +75,9 @@ ul li {
   font-size: 13px;
   text-decoration: none;
 }
+.header-plus ul li a:hover {
+  color: #ffca28;
+}
 .header-plus ul li > span {
   display: block;
   height: 34px;
@@ -142,4 +145,119 @@ ul li {
   letter-spacing: 0.1px;
   padding: 0 5px;
   margin: 0%;
+}
+.navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+}
+.wrapper .nav .nav-menu .false .tag:hover {
+  color: #ffca28;
+}
+.navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+}
+
+.navigation_bar_container {
+  width: 100%;
+  margin: auto;
+  margin-top: 1%;
+}
+.navigation_flex_box {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.navigation_flex_box > div:nth-child(1) {
+  flex-basis: 10%;
+  margin: auto;
+  height: auto;
+  margin-left: 2%;
+}
+.navigation_flex_box > div:nth-child(2) {
+  flex-basis: 87%;
+  margin: 0 auto;
+  height: auto;
+  padding: 0 auto;
+  margin-top: 15px;
+}
+.flex_child_box > ul {
+  display: block;
+  margin-top: 10px;
+}
+.flex_child_box > ul > li {
+  padding: 5px 0px;
+  margin: 0 35px 5px 0;
+  font-weight: normal;
+  text-align: left;
+}
+
+.flex_child_box_des .des_outer {
+  display: flex;
+  margin: auto;
+  padding: auto;
+}
+.flex_child_box_des .des_outer > div {
+  flex-basis: 30%;
+  height: 100px;
+  display: flex;
+}
+.flex_child_box_des .des_outer div > div:nth-child(1) {
+  flex-basis: 40%;
+  margin: auto;
+}
+.flex_child_box_des .des_outer div > div:nth-child(2) {
+  flex-basis: 60%;
+  margin: auto;
+}
+
+.details_div {
+  display: block;
+  margin-left: -6px;
+}
+.details_div > p {
+  margin: 0;
+  text-align: left;
+  margin-left: -5px;
+  padding: 1px 0;
+}
+.des_outer .image_div {
+  width: 63%;
+  margin: auto;
+}
+.des_outer .image_div > img {
+  width: 100%;
+  height: auto;
+}
+.new_p {
+  color: #2eb4cb;
+  font-weight: 500;
+}
+.price_p {
+  color: #dd0b25;
+  font-weight: 600;
 }
