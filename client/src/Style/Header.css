@@ -180,6 +180,7 @@ ul li {
   box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
   border: 1px solid #dddfe5;
   height: auto;
+  padding-bottom: 20px;
 }
 
 .navigation_bar_container {
