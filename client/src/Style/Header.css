@@ -194,13 +194,13 @@ ul li {
   margin: auto;
 }
 .navigation_flex_box > div:nth-child(1) {
-  flex-basis: 10%;
+  flex-basis: 15%;
   margin: auto;
   height: auto;
   margin-left: 2%;
 }
 .navigation_flex_box > div:nth-child(2) {
-  flex-basis: 87%;
+  flex-basis: 82%;
   margin: 0 auto;
   height: auto;
   padding: 0 auto;
@@ -216,7 +216,16 @@ ul li {
   font-weight: normal;
   text-align: left;
 }
-
+.icon-arrow-down {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTIuNSAoNjc0NjkpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5pY1/kuIvmi4k8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxnIGlkPSJpY1/kuIvmi4kiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0i5LiL5ouJIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0LjAwMDAwMCwgNC4wMDAwMDApIiBmaWxsPSIjMDAwMDAwIj4NCiAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIG9wYWNpdHk9IjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PC9yZWN0Pg0KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iNy45OTk5OTIgOS45MTY5MjQzMyAyLjA3NDk1MzE5IDMuOTkxODg1NSAxLjAyOTM5MDA4IDUuMDM3NDQ4NjEgNy45OTk5NzYwMiAxMi4wMDgxMTQ1IDE0Ljk3MDU2MiA1LjAzNzQ0ODYxIDEzLjkyNDk5ODggMy45OTE4ODU1Ij48L3BvbHlnb24+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
+.header .icon {
+  width: 30px;
+  height: 30px;
+}
 .flex_child_box_des .des_outer {
   display: flex;
   margin: auto;
