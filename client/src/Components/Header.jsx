@@ -4,10 +4,19 @@ import "../Style/Header.css";
 export const Header = () => {
   const [navClass, setNavClass] = useState("navigation_bar");
   const [narzoClass, setNarzoClass] = useState("narzo_navigation_bar");
+  const [realmeTVClass, setRealmeTVClass] = useState(
+    ".realmeTV_navigation_bar"
+  );
+  const [laptopClass, setLaptopClass] = useState(".laptop_navigation_bar");
+  const laptopHandleEnter = () => {
+    setLaptopClass("laptop_navigation_bar_active");
+  };
+  const laptopHandleLeave = () => {
+    setLaptopClass("laptop_navigation_bar");
+  };
   const handleChange = () => {
     setNavClass("navigation_bar_active");
   };
-
   const handleLeave = () => {
     setNavClass("navigation_bar");
   };
@@ -16,6 +25,12 @@ export const Header = () => {
   };
   const narzoHandleLeave = () => {
     setNarzoClass("narzo_navigation_bar");
+  };
+  const realmeTVHandleEnter = () => {
+    setRealmeTVClass("realmeTV_navigation_bar_active");
+  };
+  const realmeTVHandleLeave = () => {
+    setRealmeTVClass("realmeTV_navigation_bar");
   };
   return (
     <div className="header_container">
@@ -206,7 +221,7 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220217/1645105009176.png" />
+                          <img src="https://image01.realme.net/general/20220223/1645593378506.png" />
                         </div>
                       </div>
                       <div>
@@ -355,26 +370,27 @@ export const Header = () => {
               <a
                 href=""
                 className="tag"
-                onMouseEnter={narzoHandleEnter}
-                onMouseLeave={narzoHandleLeave}
+                onMouseEnter={realmeTVHandleEnter}
+                onMouseLeave={realmeTVHandleLeave}
               >
                 realme TV
               </a>
-              <div className={narzoClass}>
+              <div className={realmeTVClass}>
                 <div className="grid_box_outer">
                   <div className="grid_box_inner">
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20211201/1638346373432.jpg" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">
+                            realme 4K Smart Google TV Stick
+                          </p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            ₹<span>3,999</span>
                           </p>
                         </div>
                       </div>
@@ -382,15 +398,14 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20210916/1631776095350.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Smart TV Neo 32”</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>13,999</span>
                           </p>
                         </div>
                       </div>
@@ -398,15 +413,16 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20210624/1624526397083.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">
+                            realme Smart TV Full HD 80cm(32")
+                          </p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>17,999</span>
                           </p>
                         </div>
                       </div>
@@ -414,15 +430,16 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20210531/1622446151388.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">
+                            realme Smart TV 4K (43'' & 50'')
+                          </p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            ₹<span>28,999</span>
                           </p>
                         </div>
                       </div>
@@ -430,15 +447,14 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20200930/1601463930406.jpg" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Smart TV SLED 4K</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>48,999</span>
                           </p>
                         </div>
                       </div>
@@ -446,15 +462,14 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20200630/1593487442773.jpg" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Smart Tv (32'' & 43'')</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>20,999</span>
                           </p>
                         </div>
                       </div>
@@ -462,47 +477,14 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20201009/1602214787717.jpg" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme 100W Soundbar</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>6,999</span>
                           </p>
                         </div>
                       </div>
@@ -515,26 +497,26 @@ export const Header = () => {
               <a
                 href=""
                 className="tag"
-                onMouseEnter={narzoHandleEnter}
-                onMouseLeave={narzoHandleLeave}
+                onMouseEnter={laptopHandleEnter}
+                onMouseLeave={laptopHandleLeave}
               >
                 Laptop & Tablet
               </a>
-              <div className={narzoClass}>
+              <div className={laptopClass}>
                 <div className="grid_box_outer">
                   <div className="grid_box_inner">
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20220125/1643110048971.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
                           <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme TechLife Tablet Cover</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>699</span>
                           </p>
                         </div>
                       </div>
@@ -542,15 +524,15 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20211229/1640775023516.jpg" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
                           <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Wireless Mouse</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>799</span>
                           </p>
                         </div>
                       </div>
@@ -558,15 +540,15 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20210907/1630992241023.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
                           <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Pad</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>13,999</span>
                           </p>
                         </div>
                       </div>
@@ -574,101 +556,26 @@ export const Header = () => {
                     <div>
                       <div>
                         <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
+                          <img src="https://image01.realme.net/general/20210812/1628766831238.png" />
                         </div>
                       </div>
                       <div>
                         <div className="details_div">
                           <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
+                          <p className="des_p">realme Book (Slim)</p>
                           <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <div className="image_div">
-                          <img src="https://image01.realme.net/general/20220131/1643635116029.png" />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="details_div">
-                          <p className="new_p">NEW</p>
-                          <p className="des_p">realme 9 Pro+ 5G</p>
-                          <p className="price_p">
-                            From ₹<span>24,999</span>
+                            From ₹<span>46,999</span>
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div
+                  style={{
+                    marginBottom: "100px",
+                  }}
+                ></div>
               </div>
             </li>
             <li className="false">
@@ -912,6 +819,11 @@ export const Header = () => {
               </div>
             </li>
           </ul>
+        </div>
+        <div className="nav-right">
+          <a className="nav-search gtag">
+            <span className="icon icon-search"></span>
+          </a>
         </div>
       </div>
     </div>

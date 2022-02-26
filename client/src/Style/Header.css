@@ -333,3 +333,218 @@ ul li {
   width: 100%;
   height: auto;
 }
+
+/*search icon*/
+a {
+  text-decoration: none;
+}
+.nav-right {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.nav-right .nav-search {
+  display: block;
+  right: 70px;
+  top: 5px;
+  cursor: pointer;
+}
+.nav-search .icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.icon-search {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgMzAgMzAiIHdpZHRoPSIzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiPjxjaXJjbGUgY3g9IjEzLjI1IiBjeT0iMTMuNzUiIHI9IjcuNSIvPjxwYXRoIGQ9Im0xOCAxOSA1LjE0MjQ1NiA1LjE0MjQ1NiIvPjwvZz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
+
+/*Realme TV*/
+.realmeTV_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.realmeTV_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+/*Laptop*/
+.laptop_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.laptop_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+/*Audio*/
+.audio_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.audio_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+/*smart life */
+.smartLife_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.smartLife_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+/*Accessories */
+.accessories_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.accessories_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}

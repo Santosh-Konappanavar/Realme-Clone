@@ -3,7 +3,7 @@ import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
 
 const Home = () => {
-  return <Footer />;
+  return <Header />;
 };
 
 export default Home;
