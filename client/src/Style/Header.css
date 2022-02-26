@@ -262,3 +262,74 @@ ul li {
   color: #dd0b25;
   font-weight: 600;
 }
+/* narzoSmartPhones */
+
+.narzo_navigation_bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.narzo_navigation_bar_active {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  left: -168px;
+  background: white;
+  width: 1535px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  color: black;
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 1px 2px 6px 1px rgb(0 0 0 / 15%);
+  border: 1px solid #dddfe5;
+  height: auto;
+  padding-bottom: 40px;
+}
+.grid_box_outer {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  margin: 4% auto 1%;
+}
+.grid_box_outer > .grid_box_inner {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-area: auto auto auto;
+  grid-gap: 2%;
+  grid-row-gap: 4%;
+}
+.grid_box_inner > div {
+  display: flex;
+  margin-bottom: 5%;
+}
+.grid_box_inner > div > div:nth-child(1) {
+  flex-basis: 40%;
+  margin: auto;
+}
+.grid_box_inner > div > div:nth-child(2) {
+  flex-basis: 60%;
+  margin: auto;
+}
+
+.grid_box_inner > div > div .image_div {
+  width: 73%;
+  margin: auto;
+}
+.grid_box_inner > div > div .image_div > img {
+  width: 100%;
+  height: auto;
+}
