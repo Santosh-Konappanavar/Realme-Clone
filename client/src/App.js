@@ -8,7 +8,9 @@ function App() {
      <nav>
      <Link to="/">Home page</Link>
       <Link to="/category">Category</Link>
-      <Link to="/product">Product</Link>
+      <Link to="/Product"></Link>
+      <Link to="/Product/:id"></Link>
+      <Link to="/Cart"></Link>
      </nav>
         <RoutesContainer />
     </div>
