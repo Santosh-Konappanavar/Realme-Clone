@@ -1,0 +1,13 @@
+static/themes/demolocal.altiwineexchange.com.js
+stats.json
+node_modules/*
+npm-debug.log
+.idea/*
+.*.swp
+nohup.out
+\#*
+.vagrant
+.history
+package-json.lock
+.env
+.DS_Store
