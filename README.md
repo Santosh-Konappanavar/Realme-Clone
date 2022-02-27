@@ -1,4 +1,4 @@
-![toApp-overseas-25892ede38](https://user-images.githubusercontent.com/92449229/155887173-7fb7a701-3c14-43de-be6d-90018b103299.png|width="100)
+![toApp-overseas-25892ede38](https://user-images.githubusercontent.com/92449229/155887173-7fb7a701-3c14-43de-be6d-90018b103299.png|width="100")
 
 
 > realme is a technology brand that specializes in providing technology products with a comprehensive superior experience for the youth.realme has become world’s No.6 smartphone brand in Q2 2021 with a holistic smartphone portfolio from entry-level up to flagship segments including GT Series, Number Series, Narzo Series and C Series. As a 5G leader in India,realme is the first to bring a 5G phone into the Indian market.
