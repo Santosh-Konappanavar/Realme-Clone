@@ -160,7 +160,7 @@ export const Footer = () => {
           </div>
 
           <div className="footer-contact-online">
-            <a href='#' >
+            <a href="https://www.facebook.com/realmeIndia/" >
               <span className="icon icon-chat"></span>CHAT SUPPORT
             </a>
           </div>
@@ -185,7 +185,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer-region">
-        <a href="#" >India ( English / INR )</a>
+        <a href="https://www.facebook.com/realmeIndia" >India ( English / INR )</a>
       </div>
       <div className="footer-bottom">
         <div className="wrapper">
