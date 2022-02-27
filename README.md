@@ -41,12 +41,9 @@
 
  ![realmeCorousel](https://user-images.githubusercontent.com/92449229/155886466-e7696c39-0e29-4d42-be08-3f6cee4b0f37.png)
     
-![realmeFooter](https://user-images.githubusercontent.com/92449229/155886467-11746495-ee28-4916-8477-2471d03ca5d4.png)
 
 ![Screenshot 2022-02-27 at 9 05 12 PM](https://user-images.githubusercontent.com/92449229/155889293-afd3c1e4-4d38-4346-b46e-2ef388f77773.png)
 
-
-![Screenshot 2022-02-27 at 8 12 56 PM](https://user-images.githubusercontent.com/92449229/155889296-b81bec4e-518a-4507-8c01-7349dddee1ac.png)
 
 
 ![Screenshot 2022-02-27 at 9 04 51 PM](https://user-images.githubusercontent.com/92449229/155889301-757a144f-1766-492a-b111-b5727aeacc25.png)
@@ -55,6 +52,9 @@
 
 ![Screenshot 2022-02-27 at 9 04 07 PM](https://user-images.githubusercontent.com/92449229/155889300-0c609aa0-d33e-4ffd-baf3-012c2d982987.png)
 
+ 
+ ![realmeFooter](https://user-images.githubusercontent.com/92449229/155886467-11746495-ee28-4916-8477-2471d03ca5d4.png)
+ 
  
 
 
