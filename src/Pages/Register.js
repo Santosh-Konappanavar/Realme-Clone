@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import { useNavigate, Link} from 'react-router-dom';
 import { registerInitiate } from '../redux/userReducer/actions';
-import {AiOutlineDown} from 'react-icons/ai';
 import "./Register.css";
 
 const Register=()=>{

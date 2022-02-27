@@ -27,7 +27,7 @@ const dispatch = useDispatch();
 const handleGoogleSignIn = () => {
   dispatch(googleSignInInitiate());
 };
-const handleFBSignIn = () => {};
+// const handleFBSignIn = () => {};
 
   const handleSubmit =(e) =>{
     e.preventDefault();
