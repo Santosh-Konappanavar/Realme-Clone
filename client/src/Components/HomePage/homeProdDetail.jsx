@@ -2,8 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addItem, deleteItem  } from "../../redux/dataReducer/actions";
-import { useParams } from "react-router-dom";
-import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { Footer } from "../NavAndFooter/Footer";
 import { Header } from "../NavAndFooter/Header";
@@ -71,7 +70,12 @@ function HomeProdDetail() {
                     <button className="gray" onClick={() => handleCart(arr)}>
                       {cartBtn}
                     </button>
-                    <button className="yellow">Buy Now</button>
+                    <Link to="/payment">
+                    <button className="yellow">
+                      Buy Now
+                      
+                     </button>
+                     </Link>
                   </div>
                 </div>
               </div>
