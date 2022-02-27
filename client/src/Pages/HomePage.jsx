@@ -21,7 +21,7 @@ useEffect(()=>{
 },[])
 
   const getHomeData=()=>{
-      axios.get('http://localhost:3001/homeData').then(({data})=>{
+      axios.get('https://neha-json-server.herokuapp.com/homeData').then(({data})=>{
           dispatch(getDataSuccess(data))
  
       })
