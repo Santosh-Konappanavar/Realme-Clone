@@ -45,12 +45,16 @@ width: 50%;
     background-color:whitesmoke;
 }
 .yellow{
+    margin-top: 10px;
+height: 45px;
     background-color:#ffc915 ;
     border: none;
+
     
 }
 .gray{
 background-color: whitesmoke;
+
 }
 .yellow,.gray{
     color: black;

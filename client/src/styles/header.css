@@ -80,6 +80,8 @@ div {
   .header-plus ul li a:hover {
     color: #ffca28;
 
+  }.logoutButton:hover{
+    color: #ffca28;
   }
   .header-plus ul li > span {
     display: block;
@@ -558,6 +560,10 @@ div {
     border: 0px solid #dddfe5;
     height: auto;
     padding-bottom: 40px;
+  }.logoutButton{
+    border: none;
+    background-color: white;
+    color: #666;
   }
 
 

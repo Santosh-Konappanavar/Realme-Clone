@@ -143,7 +143,7 @@ export const Header = () => {
           </ul>
           <ul>
             <li>
-              { currentUser ? <button className="btn btn-danger" onClick={handleAuth}>Logout</button> :  <Link className="tagHeader" to="/login">Login</Link> }
+              { currentUser ? <button className="logoutButton" onClick={handleAuth}>Logout</button> :  <Link className="tagHeader" to="/login">Login</Link> }
             
             </li>
             <li>
@@ -158,9 +158,8 @@ export const Header = () => {
               <span>|</span>
             </li>
             <li>
-              <a href="##" className="tagHeader">
-                Cart
-              </a>
+                <Link to="/Cart" className="tagHeader">Cart</Link>
+                
             </li>
           </ul>
         </div>
