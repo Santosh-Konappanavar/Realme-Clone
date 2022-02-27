@@ -48,6 +48,7 @@ export const Header = () => {
   };
 
   const laptopHandleEnter = () => {
+    console.log(laptopClass)
     setLaptopClass("laptop_navigation_bar_active");
   };
   const laptopHandleLeave = () => {
@@ -66,6 +67,7 @@ export const Header = () => {
     setNarzoClass("narzo_navigation_bar");
   };
   const realmeTVHandleEnter = () => {
+    console.log(realmeTVClass)
     setRealmeTVClass("realmeTV_navigation_bar_active");
   };
   const realmeTVHandleLeave = () => {

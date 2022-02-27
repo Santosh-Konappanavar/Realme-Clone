@@ -17,15 +17,17 @@ const HomePage = () => {
   const dispatch=useDispatch()
 
 useEffect(()=>{
-  getHomeData()
-},[])
-
-  const getHomeData=()=>{
-      axios.get('https://neha-json-server.herokuapp.com/homeData').then(({data})=>{
-          dispatch(getDataSuccess(data))
  
-      })
-  }
+  const getHomeData=()=>{
+    axios.get('https://neha-json-server.herokuapp.com/homeData').then(({data})=>{
+        dispatch(getDataSuccess(data))
+
+    })
+}
+  getHomeData()
+},[dispatch])
+
+
 
 
   return (
