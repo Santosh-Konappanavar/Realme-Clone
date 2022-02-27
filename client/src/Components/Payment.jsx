@@ -1,6 +1,35 @@
+import { useState } from "react";
 import "../Style/Payment.css";
 
 export const Payment = () => {
+  const [passWord, setPassWord] = useState([]);
+  const [passDes, setPassDes] = useState();
+
+  const [cardNumber, setCardNumber] = useState([]);
+  const [cardNumberValid, setCardNumberValid] = useState();
+
+  const passHandleChange = (e) => {
+    setPassWord(e.target.value);
+  };
+  const cardNumberHandleChange = (e) => {
+    setCardNumber(e.target.value);
+  };
+
+  const handlePayment = () => {
+    if (passWord.length !== 3) {
+      setPassDes("*Invalid Credential");
+    }
+    if (passWord.length === 3) {
+      setPassDes("");
+    }
+    if (cardNumber.length !== 16) {
+      setCardNumberValid("*Invalid Card Number");
+    }
+    if (cardNumber.length === 16) {
+      setCardNumberValid("");
+    }
+  };
+
   return (
     <div className="container">
       <h1>Make Your Payment Now</h1>
@@ -14,9 +43,14 @@ export const Payment = () => {
         <div className="cvv">
           <h3>CVV</h3>
           <div className="input-field">
-            <input id="password" type="password" placeholder="Enter  Number" />
+            <input
+              id="password"
+              type="number"
+              placeholder="Enter  Number"
+              onChange={passHandleChange}
+            />
           </div>
-          <p id="in_pass"></p>
+          <p id="in_pass">{passDes}</p>
         </div>
       </div>
       <div className="second-row">
@@ -25,11 +59,19 @@ export const Payment = () => {
           <div className="input-field">
             <input
               id="card_number"
-              type="text"
+              type="number"
               placeholder="Enter Your Card Number Here"
+              onChange={cardNumberHandleChange}
             />
           </div>
-          <p id="in_nm"></p>
+          <p
+            id="in_nm"
+            style={{
+              textAlign: "left",
+            }}
+          >
+            {cardNumberValid}
+          </p>
         </div>
       </div>
       <div className="third-row">
@@ -70,7 +112,9 @@ export const Payment = () => {
         </div>
         <p id="exp"></p>
       </div>
-      <a id="payment">Pay Now</a>
+      <a id="payment" onClick={handlePayment}>
+        Pay Now
+      </a>
     </div>
   );
 };
