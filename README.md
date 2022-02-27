@@ -86,6 +86,8 @@
 ![image](https://user-images.githubusercontent.com/76626095/131249873-59bb6b25-f621-4807-92e1-3f939b5b68a1.png)
 
 
+![payment](https://user-images.githubusercontent.com/92449229/155889151-8a254e25-574d-46b5-8170-c55407d17bda.jpeg)
+
 
 
 
