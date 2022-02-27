@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addItem } from "../../store/actions";
-import { deleteItem } from "../../store/actions";
+import { addItem, deleteItem  } from "../../redux/dataReducer/actions";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
@@ -11,7 +10,7 @@ import { Header } from "../NavAndFooter/Header";
 import "../../styles/product.css";
 
 function HomeProdDetail() {
-  const { data } = useSelector((store) => store.homeData);
+  const { data } = useSelector((store) => store.data.homeData);
   const dispatch = useDispatch();
 
 

@@ -1,8 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import {useDispatch, useSelector} from 'react-redux';
+import { logoutInitiate } from '../../redux/userReducer/actions';
+
 import "../../styles/header.css";
 
 export const Header = () => {
+
+  const { currentUser } = useSelector((state) => state?.user);
+  
+  const dispatch = useDispatch();
+
   const [navClass, setNavClass] = useState("navigation_bar");
   const [narzoClass, setNarzoClass] = useState("narzo_navigation_bar");
   const [realmeTVClass, setRealmeTVClass] = useState(
@@ -63,6 +71,17 @@ export const Header = () => {
   const realmeTVHandleLeave = () => {
     setRealmeTVClass("realmeTV_navigation_bar");
   };
+
+  
+  const handleAuth = () => {
+    console.log(currentUser,'currentUser currentUser ----- ')
+    // if(currentUser){
+      console.log('enter -- ', currentUser)
+      dispatch(logoutInitiate());
+    // }
+    };
+
+
   return (
     <div className="header_container">
       <div className="mall-plus">
@@ -124,9 +143,8 @@ export const Header = () => {
           </ul>
           <ul>
             <li>
-              <a href="##" className="tagHeader">
-                Login
-              </a>
+              { currentUser ? <button className="btn btn-danger" onClick={handleAuth}>Logout</button> :  <Link className="tagHeader" to="/login">Login</Link> }
+            
             </li>
             <li>
               <span>|</span>

@@ -1,5 +1,4 @@
-import { GET_DATA } from "./actionTypes.js"
-import { GET_DATA_SUCCESS } from "./actionTypes.js"
+import { GET_DATA, GET_DATA_SUCCESS, ADD_ITEM, DELETE_ITEM } from "./actionTypes"
 
 
 export const getData=(payload)=>({
@@ -13,13 +12,13 @@ export const getDataSuccess=(payload)=>({
 })
 export const addItem =(product)=>{
      return {
-         type:"ADD_ITEM",
+         type:ADD_ITEM,
          payload:product
      }
  }
  export const deleteItem =(product)=>{
      return {
-         type:"DELETE_ITEM",
+         type:DELETE_ITEM,
          payload:product
      }
  }

@@ -8,12 +8,12 @@ import { Header } from '../Components/NavAndFooter/Header';
 import { useSelector } from 'react-redux';
 import { Footer } from '../Components/NavAndFooter/Footer';
 import { useDispatch } from 'react-redux';
-import {getDataSuccess} from '../store/actions';
+import {getDataSuccess} from '../redux/dataReducer/actions';
 import axios from 'axios';
 
 
-const Home = () => {
-  const {  data } = useSelector((store) => store.homeData);
+const HomePage = () => {
+  const {  data } = useSelector((store) => store.data.homeData);
   const dispatch=useDispatch()
 
 useEffect(()=>{
@@ -45,4 +45,4 @@ useEffect(()=>{
   )
 }
 
-export default Home
+export default HomePage

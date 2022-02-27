@@ -1,7 +1,8 @@
 import {
   GET_DATA,
-  GET_DATA_SUCCESS
- 
+  GET_DATA_SUCCESS,
+  ADD_ITEM,
+  DELETE_ITEM
 } from "./actionTypes.js";
 
 const init = {
@@ -10,7 +11,7 @@ const init = {
   }
 };
 
-export const reducer = (store = init, { type, payload }) => {
+const dataReducer = (store = init, { type, payload }) => {
   switch (type) {
     case GET_DATA:
       return {
@@ -38,13 +39,13 @@ export const reducer = (store = init, { type, payload }) => {
 export const additem=[];
 export const additems = (state=additem,action)=>{
     switch(action.type){
-        case "ADD_ITEM": 
+        case ADD_ITEM: 
         return[
             ...state,
             action.payload
         ]
      
-      case "DELETE_ITEM":
+      case DELETE_ITEM:
           return state = state.filter((x)=>{
               return x.id!==action.payload.id
           })
@@ -54,3 +55,5 @@ export const additems = (state=additem,action)=>{
          
     }
 }
+
+export default dataReducer;
