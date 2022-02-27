@@ -1,19 +1,780 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "homeData": [
+
+        {   "id":1,
+            "image_url": "https://image01.realme.net/general/20210305/1614914931022.png",
+            "name": "realme Mobile Game Finger Sleeves",
+            "desc":"Black",
+            "price": "₹129",
+            "cutPrice":"₹199",
+            "category":"tv"
+          
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":2,
+            "image_url": "https://image01.realme.net/general/20210531/1622446151388.png",
+            "name": "realme Smart TV 4K 108cm(43)",
+            "desc":"Black 108cm(43”)",
+            "price": "₹28,999",
+            "cutPrice":"₹30,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":3,
+            "image_url": "https://image01.realme.net/general/20200526/1590478365284.jpg",
+            "name": "realme Smart TV 108cm (43”)",
+            "desc":"Black 108cm (43”)",
+            "price": "₹25,499",
+            "cutPrice":"₹26,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":4,
+            "image_url": "https://image01.realme.net/general/20210916/1631776095350.png",
+            "name": "realme Smart TV Neo 32”",
+            "desc":"Black 80cm(32”)",
+            "price": "₹13,999",
+            "cutPrice":"₹14,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":5,
+            "image_url": "https://image01.realme.net/general/20200526/1590478365284.jpg",
+            "name": "realme Smart TV 108cm (43”)",
+            "desc":"Black 108cm (43”)",
+            "price": "₹25,499",
+            "cutPrice":"₹26,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":6,
+            "image_url": "https://image01.realme.net/general/20210916/1631776095350.png",
+            "name": "realme Smart TV Neo 32”",
+            "desc":"Black 80cm(32)",
+            "price": "₹13,499",
+            "cutPrice":"₹14,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":7,
+            "image_url": "https://image01.realme.net/general/20200630/1593487442773.jpg",
+            "name": "realme Smart TV 80cm (32”)",
+            "desc":"Black 80cm (32”)",
+            "price": "₹15,999",
+            "cutPrice":"₹16,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":8,
+            "image_url": "https://image01.realme.net/general/20210624/1624526397083.png",
+            "name": "realme Smart TV Full HD 80cm(32”) (Black)",
+            "desc":"Black 80cm (32”)",
+            "price": "₹17,999",
+            "cutPrice":"₹18,999",
+            "category":"tv"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":9,
+            "image_url": "https://image01.realme.net/general/20211011/1633945837036.png",
+            "name": "realme Micro-USB Cable",
+            "price": "₹199",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":10,
+            "image_url": "https://image01.realme.net/general/20211011/1633945684839.png",
+            "name": "realme Type-C Cable",
+            "price": "₹299",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":11,
+            "image_url": "https://image01.realme.net/general/20211022/1634885772461.png",
+            "name": "realme Buds Air 2 Iconic Cover",
+            "price": "₹399",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":12,
+            "image_url": "https://image01.realme.net/general/20210223/1614057007991.png",
+            "name": "realme Mobile Game Controller",
+            "price": "₹999",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":13,
+            "image_url": "https://image01.realme.net/general/20201223/1608696018552.jpg",
+            "name": "realme & GRAFFLEX T-shirt Black",
+            "price": "₹999",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":14,
+            "image_url": "https://image01.realme.net/general/20210223/1614059229445.png",
+            "name": "realmeow Cap Black",
+            "price": "₹999",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":15,
+            "image_url": "https://image01.realme.net/general/20210223/1614063237784.jpg",
+            "name": "realmeow T-shirt Black",
+            "price": "₹999",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {   "id":16,
+            "image_url": "https://image01.realme.net/general/20200612/1591953520295.jpg",
+            "name": "realme Adventurer Backpack",
+            "price": "₹1,499",
+            "category":"onlyhere"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },{
+            "id":17,
+            "image_url": "https://image01.realme.net/general/20210803/1627970794478.png",
+            "name": "realme C21Y",
+            "desc":"Triple Camera , Real performance",
+            "price": "₹9,499",
+            "category":"recommended"          
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":18,
+            "image_url": "https://image01.realme.net/general/20210519/1621424163546.png",
+            "name": "realme C25",
+            "desc":"Powerful Processor. 6000Ah Batt...",
+            "price": "₹11,999",
+            "tag":"₹1500 Prepaid Offer",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":19,
+            "image_url": "https://image01.realme.net/general/20210928/1632817235526.png",
+            "name": "realme C25Y",
+            "desc":"50MP AI Camera. All-day Performa...",
+            "price": "₹10,999",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":20,
+            "image_url": "https://image01.realme.net/general/20210916/1631776707007.png",
+            "name": "realme narzo 50A",
+            "desc":"Mighty Performance Inside",
+            "price": "₹12,499",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            
+            "id":21,
+            "image_url": "https://image01.realme.net/general/20210903/1630653680914.png",
+            "name": "realme 8i",
+            "desc":"120Hz. Infinitely Smooth",
+            "price": "₹13,999",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            
+            "id":22,
+            "image_url": "https://image01.realme.net/general/20210611/1623400675833.png",
+            "name": "realme narzo 30",
+            "desc":"Unleash Peak Performance",
+            "price": "₹15,499",
+            "tag":"₹1500 Prepaid Offer",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":23,
+            "image_url": "https://image01.realme.net/general/20210323/1616485282573.png",
+            "name": "realme 8",
+            "desc":"In Style. Capture Infinity",
+            "price": "₹15,999",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"recommended"
+
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":24,
+            "image_url": "https://image01.realme.net/general/20210506/1620287407432.png",
+            "name": "realme 8",
+            "desc":"5G, Speed to Infinity",
+            "price": "₹16,499",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"recommended"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            }, {
+            "id":25,
+            "image_url": "https://image01.realme.net/general/20220131/1643635116029.png",
+            "name": "realme 9 PRO+",
+            "desc":"CAPTURE THE LIGHT",
+            "price": "₹24,999",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":26,
+            "image_url": "https://image01.realme.net/general/20220217/1645105009176.png",
+            "name": "realme 9 PRO",
+            "desc":"CAPTURE THE LIGHT",
+            "price": "₹17,999",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":27,
+            "image_url": "https://image01.realme.net/general/20220126/1643190140852.png",
+            "name": "realme 9i",
+            "desc":"Next Level Power",
+            "price": "₹13,999",
+            "tag":"₹1000 Prepaid Offer",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":28,
+            "image_url": "https://image01.realme.net/general/20211116/1637046340070.png",
+            "name": "realme C25_Y",
+            "desc":"50MP AI Camera. All-day Performa...",
+            "price": "₹11,999",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":29,
+            "image_url": "https://image01.realme.net/general/20210916/1631776707007.png",
+            "name": "realme narzo 50A",
+            "desc":"Mighty Performance Inside",
+            "price": "₹12,499",
+            "tag":"NEW",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":30,
+            "image_url": "https://image01.realme.net/general/20210916/1631776407331.png",
+            "name": "realme narzo 50i",
+            "desc":"Mighty Performance Inside",
+            "price": "₹7,499",
+            "tag":"NEW",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":31,
+            "image_url": "https://image01.realme.net/general/20210913/1631506702085.png",
+            "name": "realme C25Y",
+            "desc":"50MP Ai Camera. All Performa...",
+            "price": "₹10,999",
+            "tag":"NEW",
+            "category":"newlaunches"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":32,
+            "image_url": "https://image01.realme.net/general/20210903/1630653680914.png",
+            "name": "realme 8i",
+            "desc":"India;s First Helio G9 Processor",
+            "price": "₹13,999",
+            "category":"newlaunches"
+            
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":33,
+            "image_url": "https://image01.realme.net/general/20211129/1638173907903.png",
+            "name": "realme GT Master Edition",
+            "desc":"Mastery beyond Speed",
+            "price": "₹29,999",
+            "category":"bestsellers"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":34,
+            "image_url": "https://image01.realme.net/general/20210811/1628679174740.png",
+            "name": "realme GT 5G",
+            "desc":"Sheer Speed Flagship",
+            "price": "₹37,999",
+            "tag":"₹2000 Prepaid Offer",
+            "category":"bestsellers"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":35,
+            "image_url": "https://image01.realme.net/general/20200629/1593436005199.jpg",
+            "name": "realme C11 2021",
+            "desc":"Bigger Battery. Larger Display.",
+            "price": "₹7,499",
+            "category":"bestsellers"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":36,
+            "image_url": "https://image01.realme.net/general/20210609/1623253153556.png",
+            "name": "realme narzo 30",
+            "desc":"Unleash Peak Performance",
+            "price": "₹16,999",
+            "tag":"₹1500 Prepaid Offer",
+            "category":"bestsellers"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":37,
+            "image_url": "https://image01.realme.net/general/20210903/1630653680914.png",
+            "name": "realme 8i",
+            "desc":"120Hz. Infinity Smooth",
+            "price": "₹13,999",
+            "category":"bestsellers"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+          },
+          {
+            "id":38,
+            "image_url": "https://image01.realme.net/general/20210526/1622021106878.png",
+            "name": "realme X7 5G",
+            "desc":"Future at Full Speed",
+            "tag":"₹2000 Prepaid Offer",
+            "price": "₹26,999",
+             "category":"bestsellers"
+
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":39,
+            "image_url": "https://image01.realme.net/general/20211013/1634106408458.jpg",
+            "name": "realme Google TV Stick",
+            "desc":"New Google TV Platform ",
+            "price": "₹3,999",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":40,
+            "image_url": "https://image01.realme.net/general/20210526/1622009762560.jpg",
+            "name": "realme Smart Scale",
+            "desc":"Scale up your Fitness",
+            "price": "₹1,999",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":41,
+            "image_url": "https://image01.realme.net/general/20210819/1629373840520.jpg",
+            "name": "realme Watch 2 Pro ",
+            "desc":"Big Display.Pro Sports.",
+            "price": "₹4,999",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":42,
+            "image_url": "https://image01.realme.net/general/20210927/1632736298242.jpg",
+            "name": "realme Smart TV Neo",
+            "desc":"SMARTER IS BETTER",
+            "price": "₹13,999",
+            "tag":"₹1000 Prepaid Offer",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":43,
+            "image_url": "https://image01.realme.net/general/20210907/1630992241023.png",
+            "name": "realme Pad",
+            "desc":"Ultra Slim. Real fun.",
+            "price": "₹13,999",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":44,
+            "image_url": "https://image01.realme.net/general/20210812/1628766763084.png",
+            "name": "realme Book",
+            "desc":"Designed to Empower",
+            "price": "₹46,999",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":45,
+            "image_url": "https://image01.realme.net/general/20210531/1622446151388.png",
+            "name": "reame smart TV 4K",
+            "desc":"Home Cinema with voice Assistant",
+            "price": "₹28,999",
+            "cutPrice":"₹30,999",
+            "tag":"₹2000 Prepaid Offer",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":46,
+            "image_url": "https://image01.realme.net/general/20211201/1638356645950.png",
+            "name": "realme watch 2",
+            "desc":"Smart, Sporty, Always on",
+            "price": "₹3,499",
+             "category":"smartlife"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":47,
+            "image_url": "https://image01.realme.net/general/20210927/1632727127886.png",
+            "name": "realme TechLife Air Purifier ",
+            "desc":"Breathe Better, Live Better",
+            "price": "₹7,999",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":48,
+            "image_url": "https://image01.realme.net/general/20210624/1624541450977.png",
+            "name": "realme Hair Dryer ",
+            "desc":"Your Style Expert",
+            "price": "₹1,999",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":49,
+            "image_url": "https://image01.realme.net/general/20210624/1624541508361.png",
+            "name": "realme Beard Trimmer Plus",
+            "desc":"Your Style Expert",
+            "price": "₹ 1,999",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":50,
+            "image_url": "https://image01.realme.net/general/20210628/1624852364066.png",
+            "name": "realme Beard Trimmer",
+            "desc":"Your Style Expert.",
+            "price": "₹1,299",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":51,
+            "image_url": "https://image01.realme.net/general/20200902/1599034619529.jpg",
+            "name": "realme M1 Sonic Tooth..",
+            "desc":"For Perfect Oral Health",
+            "price": "₹1,999",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":52,
+            "image_url": "https://image01.realme.net/general/20210223/1614064023148.png",
+            "name": "realme Cooling Back Clip",
+            "desc":"Semiconductor Enhanced Heat.",
+            "price": "₹1,799",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":53,
+            "image_url": "https://image01.realme.net/general/20201005/1601880948577.jpg",
+            "name": "realme N1 Sonic Tooth..",
+            "desc":"Every Day Better Cleaning.",
+            "price": "₹799",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":54,
+            "image_url": "https://image01.realme.net/general/20210316/1615905316247.jpg",
+            "name": "realme LED Smart Bulb",
+            "desc":"16 Million Colors | 13 years Lifespan.",
+            "price": "₹749",
+             "category":"lifestyle"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":55,
+            "image_url": "https://image01.realme.net/general/20210624/1624522463778.png",
+            "name": "realme Buds Q2 ",
+            "desc":"Noise Off, Power On.",
+            "price": "₹2,499",
+             "category":"earbuds"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":56,
+            "image_url": "https://image01.realme.net/general/20201005/1601906096530.jpg",
+            "name": "realme Buds Air Pro",
+            "desc":"Tune Out the Noise",
+            "price": "₹4,999",
+             "category":"earbuds"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":57,
+            "image_url": "https://image01.realme.net/general/20201221/1608535037436.jpg",
+            "name": "realme Buds Wireless Pro",
+            "desc":"Noise Off. Music On.",
+            "price": "₹3,999",
+             "category":"earbuds"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":58,
+            "image_url": "https://image01.realme.net/general/20191111/1573467332644.jpg",
+            "name": "realme Buds Wireless",
+            "desc":"Real Sound. Unwired.",
+            "price": "₹1,799",
+             "category":"earbuds"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":59,
+            "image_url": "https://image01.realme.net/general/20220125/1643110048971.png",
+            "name": "realme TechLife Tablet Cover",
+            "price": "₹699",
+            "tag":"NEW",
+             "category":"mouse"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":60,
+            "image_url": "https://image01.realme.net/general/20211229/1640775023516.jpg",
+            "name": "realme Wireless Mouse",
+            "desc":"Silent Touch | Egronomic Design",
+            "price": "₹799",
+            "tag":"NEW",
+             "category":"mouse"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":61,
+            "image_url": "https://image01.realme.net/general/20200514/1589437407116.jpg",
+            "name": "realme 10000mAh Power Bank 2",
+            "desc":"18W Two-way Quick Charge | Multi..",
+            "price": "₹1,199",
+             "category":"mouse"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":62,
+            "image_url": "https://image01.realme.net/general/20200514/1589437407116.jpg",
+            "name": "realme 10000mAh Power Bank..",
+            "desc":"Dart to full power",
+            "price": "₹1,999",
+             "category":"mouse"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":63,
+            "image_url": "https://image01.realme.net/general/20211013/1634106465117.jpg",
+            "name": "realme Brick Bluetooth Speaker",
+            "desc":"Extra Bass, More Power.",
+            "price": "₹2,999",
+             "category":"audio"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":64,
+            "image_url": "https://image01.realme.net/general/20210910/1631249570590.jpg",
+            "name": "realme Cobble Bluetooth Speaker",
+            "desc":"Pure Bass Powerhouse.",
+            "price": "₹1,799",
+             "category":"audio"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":65,
+            "image_url": "https://image01.realme.net/general/20210722/1626945120282.jpg",
+            "name": "realme Buds Q2 Neo ",
+            "desc":"Quite Clear, True Wireless.",
+            "price": "₹1,599",
+             "category":"audio"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":66,
+            "image_url": "https://image01.realme.net/general/20210722/1626945217215.jpg",
+            "name": "realme Buds Wireless 2 ",
+            "desc":"Noise Off, Bass On.",
+            "price": "₹2,299",
+             "category":"audio"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":67,
+            "image_url": "https://image01.realme.net/general/20211013/1634106498123.jpg",
+            "name": "realme Cooling Clip Neo ",
+            "desc":"Rapid Cooling",
+            "price": "₹999",
+             "category":"others"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":68,
+            "image_url": "https://image01.realme.net/general/20211013/1634106511188.jpg",
+            "name": "realme Mobile Game Trigger",
+            "desc":"Physical Buttons for Latency-Free Control ",
+            "price": "₹699",
+             "category":"others"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":69,
+            "image_url": "https://image01.realme.net/general/20211013/1634106511188.jpg",
+            "name": "realme Type-C Game Cable",
+            "desc":"7.6mm Ultra-Narrow Elbow Design",
+            "price": "₹599",
+             "category":"others"
+ ,
+ "coupon1":"₹ 50% off on ₹1000",
+ "coupon2":"cost of EMI"         
+            },
+          {
+            "id":70,
+            "image_url": "https://image01.realme.net/general/20201027/1603804230449.png",
+            "name": "realme Power Bank 2i",
+            "desc":"Speedy Power for Real",
+            "price": "₹999",
+             "category":"others"
+          }
+          
+          
+      ]
 }

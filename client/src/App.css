@@ -1,3 +1,6 @@
+*{
+  font-family: OpenSans-Semibold, "PingFang SC", "Microsoft YaHei", sans-serif, Arial;
+}
 .App {
   text-align: center;
 }
