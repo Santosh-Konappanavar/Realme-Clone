@@ -136,4 +136,4 @@
 #### Anowar Hossain
 > Github: [Anowar Hossain](https://github.com/anowar265)
 > 
-> LinkedIn: [https://www.linkedin.com/in/hossainanowaroffical/)
+> LinkedIn: [Anowar Hossain](https://www.linkedin.com/in/hossainanowaroffical/)
